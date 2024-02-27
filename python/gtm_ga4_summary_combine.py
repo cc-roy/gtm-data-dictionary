@@ -3,7 +3,8 @@ import sys
 import pandas as pd
 import os
 
-file_path = 'C:/Users/chris/Documents/tiaa/gtm-data-dictionary/gtm-data-dictionary/json/GTM-NP77X9R_workspace296.json'
+# add the path to your json object here
+file_path = ''
 
 def parse_gtm_json(file_path):
     with open(file_path, encoding='utf-8') as file:
